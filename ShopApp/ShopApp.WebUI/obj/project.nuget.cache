@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "I/1a8xm4bqjTMjd5DcUiYQnXDULZExz/isphpRR6ODsde+yw+ORvZvSLTBQwUw9qG89dnMgP7g6AmTvzGhKOWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\memo\\OneDrive\\Masaüstü\\Sadikt\\ShopApp\\ShopApp.WebUI\\ShopApp.WebUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\memo\\.nuget\\packages\\bootstrap\\5.3.0\\bootstrap.5.3.0.nupkg.sha512",
+    "C:\\Users\\memo\\.nuget\\packages\\bootstrap.less\\3.4.1\\bootstrap.less.3.4.1.nupkg.sha512",
+    "C:\\Users\\memo\\.nuget\\packages\\html5editortemplates\\1.0.2\\html5editortemplates.1.0.2.nupkg.sha512",
+    "C:\\Users\\memo\\.nuget\\packages\\jquery\\1.9.1\\jquery.1.9.1.nupkg.sha512",
+    "C:\\Users\\memo\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\memo\\.nuget\\packages\\modernizr\\2.8.3\\modernizr.2.8.3.nupkg.sha512",
+    "C:\\Users\\memo\\.nuget\\packages\\mvchtml5templates\\0.5.0\\mvchtml5templates.0.5.0.nupkg.sha512",
+    "C:\\Users\\memo\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
