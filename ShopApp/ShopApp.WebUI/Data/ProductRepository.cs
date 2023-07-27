@@ -14,10 +14,10 @@ namespace ShopApp.WebUI.Data
                 new Product {ProductId = 3, Name = "Tesla ModelZ", Price = 78449, Description = "İyi", IsApproved = false, ImageUrl="3.png", CategoryId=1},
                 new Product {ProductId = 4, Name = "Tesla ModelW", Price = 48484, Description = "Oluru var", IsApproved = false, ImageUrl="4.png", CategoryId=1},
 
-                new Product {ProductId = 5, Name = "FALCON 9", Price = 46854, Description= "FIRST ORBITAL CLASS ROCKET CAPABLE OF REFLIGHT", IsApproved=true, ImageUrl="1.png", CategoryId=2},
-                new Product {ProductId = 6, Name = "FALCON HEAVY", Price = 48484, Description = "OVER 5 MILLION LBS OF THRUST", IsApproved = true, ImageUrl="2.png", CategoryId=2},
-                new Product {ProductId = 7, Name = "DRAGON", Price = 78449, Description = "SENDING HUMANS AND CARGO INTO SPACE", IsApproved = false, ImageUrl="3.png", CategoryId=2},
-                new Product {ProductId = 8, Name = "STARSHIP", Price = 48484, Description = "SERVICE TO EARTH ORBIT, MOON, MARS AND BEYOND", IsApproved = false, ImageUrl="4.png", CategoryId=2}
+                new Product {ProductId = 5, Name = "FALCON 9", Price = 46854, Description= "FIRST ORBITAL CLASS ROCKET CAPABLE OF REFLIGHT", IsApproved=true, ImageUrl="5.jpg", CategoryId=2},
+                new Product {ProductId = 6, Name = "FALCON HEAVY", Price = 48484, Description = "OVER 5 MILLION LBS OF THRUST", IsApproved = true, ImageUrl="6.jpg", CategoryId=2},
+                new Product {ProductId = 7, Name = "DRAGON", Price = 78449, Description = "SENDING HUMANS AND CARGO INTO SPACE", IsApproved = false, ImageUrl="7.jpg", CategoryId=2},
+                new Product {ProductId = 8, Name = "STARSHIP", Price = 48484, Description = "SERVICE TO EARTH ORBIT, MOON, MARS AND BEYOND", IsApproved = false, ImageUrl="8.jpg", CategoryId=2}
             };
         }
     

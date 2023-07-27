@@ -205,8 +205,24 @@
       "PackagePath": "staticwebassets\\img\\4.png"
     },
     {
-      "Id": "C:\\Users\\memo\\OneDrive\\Masaüstü\\Sadikt\\ShopApp\\ShopApp.WebUI\\wwwroot\\img\\5.png",
-      "PackagePath": "staticwebassets\\img\\5.png"
+      "Id": "C:\\Users\\memo\\OneDrive\\Masaüstü\\Sadikt\\ShopApp\\ShopApp.WebUI\\wwwroot\\img\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\memo\\OneDrive\\Masaüstü\\Sadikt\\ShopApp\\ShopApp.WebUI\\wwwroot\\img\\554.png",
+      "PackagePath": "staticwebassets\\img\\554.png"
+    },
+    {
+      "Id": "C:\\Users\\memo\\OneDrive\\Masaüstü\\Sadikt\\ShopApp\\ShopApp.WebUI\\wwwroot\\img\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\memo\\OneDrive\\Masaüstü\\Sadikt\\ShopApp\\ShopApp.WebUI\\wwwroot\\img\\7.jpg",
+      "PackagePath": "staticwebassets\\img\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\memo\\OneDrive\\Masaüstü\\Sadikt\\ShopApp\\ShopApp.WebUI\\wwwroot\\img\\8.jpg",
+      "PackagePath": "staticwebassets\\img\\8.jpg"
     },
     {
       "Id": "C:\\Users\\memo\\OneDrive\\Masaüstü\\Sadikt\\ShopApp\\ShopApp.WebUI\\wwwroot\\js\\site.js",
