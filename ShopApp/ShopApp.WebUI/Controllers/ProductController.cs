@@ -8,32 +8,26 @@ namespace ShopApp.WebUI.Controllers
     public class ProductController : Controller
     {
         public IActionResult Index()
-        {
-            var product = new Product
-            {
-                Name = "Aroma",
-                Price = 9599,
-                Description = "Ph derecesi 8.15 su"
-            };
-            //ViewData["Category"] = "Sular";
-            //ViewData["Product"] = product;
-
-
-            ViewBag.Kategori = "Suuular";
-            ViewBag.okok = product;
-            
-
-            return View(product);
+        {           
+            return View();
         }
 
-        public IActionResult List(int? id) 
+        public IActionResult List(int? id, string q) 
         {
-           
+
+            //Console.WriteLine(HttpContext.Request.Query["q"].ToString());
+
 
             var products = ProductRepository.Products;
             if (id!=null)
             {
                 products = products.Where(p=>p.CategoryId==id).ToList();
+            }
+
+            if (!string.IsNullOrEmpty(q))
+            {
+                //burada to lowerları biyük küçük harf gözetmeksizin arasın diye kullandık
+                products = products.Where(i=>i.Name.ToLower().Contains(q.ToLower()) || i.Description.Contains(q)).ToList();
             }
 
             var productViewModel = new ProductViewModel()
@@ -48,6 +42,13 @@ namespace ShopApp.WebUI.Controllers
         {
 
             return View(ProductRepository.GetProductById(id));
+        }
+
+        public IActionResult Create(string name, double price) 
+        {
+            Console.WriteLine(name);
+            Console.WriteLine(price);
+            return View();
         }
     }
 }

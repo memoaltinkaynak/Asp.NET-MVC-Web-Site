@@ -11,6 +11,11 @@
     </div>
 }
 
+@section Header
+{
+    <partial name="_header">
+}
+
 @if (products.Count == 0)
 {
     @await Html.PartialAsync("_noproduct")

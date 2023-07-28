@@ -27,22 +27,11 @@ namespace ShopApp.WebUI.Controllers
 
         public IActionResult Details()
         {
-            var p = new Product();
-
-            p.Name = "Spacex";
-            p.Price = 4685454;
-            p.Description = "Rocket";
-
-
-            return View(p);
+            return View();
         }
 
         public IActionResult About(int id) 
         {
-            ViewBag.Name = "Tesla";
-            ViewBag.Price = 468595;
-            ViewBag.Description = "Elektrikli araba";
-
             return View();
         }
 

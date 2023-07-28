@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4+8XNE0pyyc7GojPwdRR+HnYuSjl7pt2FThFM9JRoqU=",
+  "Hash": "IPC+6AjBV2fyysWYYcWSlS8Z1bexBvPhQe9PZurz+dI=",
   "Source": "ShopApp.WebUI",
   "BasePath": "_content/ShopApp.WebUI",
   "Mode": "Default",
@@ -916,6 +916,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\memo\\OneDrive\\Masaüstü\\Sadikt\\ShopApp\\ShopApp.WebUI\\wwwroot\\img\\5.png",
+      "SourceId": "ShopApp.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\memo\\OneDrive\\Masaüstü\\Sadikt\\ShopApp\\ShopApp.WebUI\\wwwroot\\",
+      "BasePath": "_content/ShopApp.WebUI",
+      "RelativePath": "img/5.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\5.png"
     },
     {
       "Identity": "C:\\Users\\memo\\OneDrive\\Masaüstü\\Sadikt\\ShopApp\\ShopApp.WebUI\\wwwroot\\img\\554.png",
