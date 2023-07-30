@@ -10,8 +10,9 @@ namespace ShopApp.WebUI.Data
             _categories = new List<Category>
             {
                 new Category {CategoryId=1, Name = "Araba", Description = "Araba Kateggorisi"},
-                new Category {CategoryId=2, Name = "Rocket", Description = "Rocket Kateggorisi"},
-                new Category {CategoryId=3, Name = "Telefon", Description = "Telefon Kateggorisi"}
+                new Category {CategoryId=2, Name = "Roket", Description = "Roket Kateggorisi"},
+                new Category {CategoryId=3, Name = "Enerji", Description = "Enerji Kateggorisi"},
+                new Category {CategoryId=4, Name = "Nükleer Enerji", Description = "Nükleer Enerji Kateggorisi"}
             };
         }
     

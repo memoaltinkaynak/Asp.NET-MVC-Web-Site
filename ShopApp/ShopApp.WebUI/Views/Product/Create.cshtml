@@ -1,28 +1,58 @@
-﻿
-<form method="get">
-    <div class="form-grup">
-        <label for="name">Name</label>
-        <input type="text" name="Name" class="form-control">
+﻿@model Product
+
+<div class="row">
+<form method="post" class="col-6 mt-2">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-grup mb-3">
+        <label for="name" class="mb-2">Name</label>
+        <input asp-for="Name" value="@Model.Name" class="form-control mb-3">
+        <span asp-validation-for="Name" class="text-danger"></span>
     </div>
 
-    <div class="form-grup">
-        <label for="Price">Price</label>
-        <input type="text" name="Price" class="form-control">
+    <div class="form-grup mb-3">
+        <label for="Price" class="mb-2">Price</label>
+        <input asp-for="Price" value="@Model.Price" class="form-control mb-3">
+            <span asp-validation-for="Price" class="text-danger"></span>
     </div>
 
-    <div class="form-grup">
-        <label for="Description">Description</label>
-        <textarea type="text" name="Description" class="form-control"></textarea>
+    <div class="form-grup mb-3">
+        <label for="Description" class="mb-2">Description</label>
+        <textarea asp-for="Description" value="@Model.Description" class="form-control mb-3"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
     </div>
 
-    <div class="form-grup">
-        <label for="ImageUrl">ImageUrl</label>
-        <input type="text" name="ImageUrl" class="form-control">
+    <div class="form-grup mb-3">
+        <label for="ImageUrl" class="mb-2">ImageUrl</label>
+        <input asp-for="ImageUrl" value="@Model.ImageUrl" class="form-control mb-3">
+            <span asp-validation-for="ImageUrl" class="text-danger"></span>
     </div>
 
-    <div class="form-grup">
-        <label for="CategoryId">CategoryId</label>
-        <input type="text" name="CategoryId" class="form-control">
+    <div class="form-grup" mb-3>
+        <label for="CategoryId" class="mb-2">CategoryId</label>
+        <select asp-for="CategoryId" asp-items="@ViewBag.Categories" class="form-control mb-3">
+                <option selected disabled>Seçiniz</option>
+                
+        </select>
+            <span asp-validation-for="CategoryId" class="text-danger"></span>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+
+<div class="col-6">
+        <div class="mx-5 mt-5">
+            <label>Benim naçiz vücudum elbet bir gün toprak olacaktır</label>
+            <br />
+            <label> Ancak</label>
+            <br />
+            <label>Türkiye Cumhuriyeti ilelebet payidar kalacaktır.</label>
+        </div>
+        <div class="mx-5 mt-5">
+            <label>Zafer, "Zafer benimdir" diyebilenindir.</label>
+            <br />
+            <label>Başarı ise, "Başaracağım" diye başlayarak sonunda "Başardım" diyebilenindir. </label>
+        </div>
+        <div class="mx-5 mt-5">
+            <label>MUSTAFA KEMAL ATATÜRK</label>
+        </div>
+    </div>
+</div>

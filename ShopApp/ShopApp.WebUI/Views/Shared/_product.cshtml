@@ -5,6 +5,13 @@
         <div class="card-body">
             <h5 class="card-title">@Model.Name</h5>
             <p class="card-text">@Model.Description</p>
-            <a href="/product/details/@Model.ProductId" class="btn btn-primary">İncele</a>
+            <a href="/product/details/@Model.ProductId" class="btn btn-primary btn-sm">İncele</a>
+            <a href="/product/Edit/@Model.ProductId" class="btn btn-primary btn-sm">Edit</a>
+
+            <form action="/product/delete" method="post" style="display: inline;">
+                <input type="hidden" name="ProductId" value="@Model.ProductId">
+                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+            </form>
+
         </div>
     </div>

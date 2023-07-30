@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IPC+6AjBV2fyysWYYcWSlS8Z1bexBvPhQe9PZurz+dI=",
+  "Hash": "6mF+FA7h+ZgM1NRx1G0c01TpmVn7nkG3KU8b8R4HY4A=",
   "Source": "ShopApp.WebUI",
   "BasePath": "_content/ShopApp.WebUI",
   "Mode": "Default",
@@ -935,23 +935,6 @@
       "OriginalItemSpec": "wwwroot\\img\\5.png"
     },
     {
-      "Identity": "C:\\Users\\memo\\OneDrive\\Masaüstü\\Sadikt\\ShopApp\\ShopApp.WebUI\\wwwroot\\img\\554.png",
-      "SourceId": "ShopApp.WebUI",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\memo\\OneDrive\\Masaüstü\\Sadikt\\ShopApp\\ShopApp.WebUI\\wwwroot\\",
-      "BasePath": "_content/ShopApp.WebUI",
-      "RelativePath": "img/554.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\554.png"
-    },
-    {
       "Identity": "C:\\Users\\memo\\OneDrive\\Masaüstü\\Sadikt\\ShopApp\\ShopApp.WebUI\\wwwroot\\img\\6.jpg",
       "SourceId": "ShopApp.WebUI",
       "SourceType": "Discovered",
@@ -1001,6 +984,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\8.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\memo\\OneDrive\\Masaüstü\\Sadikt\\ShopApp\\ShopApp.WebUI\\wwwroot\\img\\T9.png",
+      "SourceId": "ShopApp.WebUI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\memo\\OneDrive\\Masaüstü\\Sadikt\\ShopApp\\ShopApp.WebUI\\wwwroot\\",
+      "BasePath": "_content/ShopApp.WebUI",
+      "RelativePath": "img/T9.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\T9.png"
     },
     {
       "Identity": "C:\\Users\\memo\\OneDrive\\Masaüstü\\Sadikt\\ShopApp\\ShopApp.WebUI\\wwwroot\\js\\site.js",
